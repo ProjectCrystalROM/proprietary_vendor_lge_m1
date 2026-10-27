@@ -1,3 +1,13 @@
+# DSI cellular-data fix qualified — 2026-10-26
+
+Restores the omitted stock /system/etc/data/dsi_config.xml, keeping all stock
+profile values. XML declaration is moved before the opening comment only.
+CM13 live test initialized DSI and established LTE after correct APN selection.
+CM12 full signed ROM passed LTE browser access and YouTube streaming after
+reboot. No APN guessing, modem firmware replacement or RIL shim is required
+by this fix. APN selection must match the actual carrier subscription.
+Raw subscriber/location logs and private signing keys are not published.
+
 # LG K7 MS330 vendor inputs for CM13
 
 **2026-10-25: selected inputs are qualified in the enforcing `cm_m1-userdebug`
