@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/m1/proprietary/etc/acdbdata/MTP/workspaceFile.qwsp:system/etc/acdbdata/MTP/workspaceFile.qwsp \
     vendor/lge/m1/radio-stock/build-configs/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/lge/m1/radio-stock/build-configs/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
+    vendor/lge/m1/radio-stock/build-configs/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/lge/m1/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
     vendor/lge/m1/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
     vendor/lge/m1/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
